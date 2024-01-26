@@ -1,0 +1,23 @@
+header {
+    background-color: #d8d8d8d7;
+    background-image: linear-gradient(#c9c9c9d7, #fffefefb);
+
+    div {
+        .logo-header {
+            max-width: 120px;
+            width: 100%;
+            height: auto;
+            margin-left: 10px;
+        }
+
+        div {
+            .menu {
+                list-style: none;
+                font-family: $tipografia;
+                font-weight: 700;
+                font-size: 16px;
+                text-decoration: none;
+            }
+        }
+    }
+}

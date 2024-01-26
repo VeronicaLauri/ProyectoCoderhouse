@@ -1,0 +1,11 @@
+{
+  "name": "curso-desarrollo-web",
+  "version": "1.0.0",
+  "description": "Proyecto web titulado Organizzate para el curso de Coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

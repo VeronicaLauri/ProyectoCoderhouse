@@ -1,0 +1,37 @@
+.contenido {
+    margin: map-get($espacio-contenido, margen-uno);
+    padding: map-get($espacio-contenido, padding-uno);
+}
+
+div {
+    div {
+        .titulo-principal {
+            font-family: $tipografia;
+            font-weight: 800;
+            font-size: 40px;
+            padding: 1rem;
+            text-align: left;
+        }
+
+        .slogan {
+            @extend .titulo-principal;
+            font-weight: 700;
+            font-size: 30px;
+        }
+
+        .pitch {
+            @extend .titulo-principal;
+            @include negrita-ocho;
+            
+        }
+    }
+
+    .agendar-asesoria {
+        font-family: $tipografia;
+        font-weight: 600;
+        font-size: 25px;
+        margin: 1rem 1rem 2rem 2rem;
+        padding: 1rem;
+        align-self: center;
+    }
+}

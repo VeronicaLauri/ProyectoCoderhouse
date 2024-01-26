@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgba(216, 216, 216, 0.8431372549);
+  background-image: linear-gradient(rgba(201, 201, 201, 0.8431372549), rgba(255, 254, 254, 0.9843137255));
+}
+header div .logo-header {
+  max-width: 120px;
+  width: 100%;
+  height: auto;
+  margin-left: 10px;
+}
+header div div .menu {
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: rgba(192, 192, 192, 0.8784313725);
+  background-image: linear-gradient(to top, rgba(133, 133, 133, 0.8784313725), rgba(221, 221, 221, 0.8784313725));
+  font-family: "Poppins", sans-serif;
+  padding: 30px 0;
+}
+.footer div div div .logo-footer-img {
+  height: 170px;
+  padding: 0;
+  max-width: 100%;
+}
+.footer div div div .footer-disclaimer {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 1rem;
+  color: #ffffff;
+}
+.footer div div div .footer-title {
+  font-size: 17px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  text-decoration: none;
+}
+.footer div div div .footer-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+.footer div div div li .footer-link {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0;
+}
+.footer div div div li .iconos-footer-img {
+  height: 50px;
+  margin: 0;
+}
+
+.contenido {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+div div .titulo-principal, div div .pitch, div div .slogan {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  padding: 1rem;
+  text-align: left;
+}
+div div .slogan {
+  font-weight: 700;
+  font-size: 30px;
+}
+div div .pitch {
+  font-size: 28px;
+  font-weight: 550;
+}
+div .agendar-asesoria {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  margin: 1rem 1rem 2rem 2rem;
+  padding: 1rem;
+  align-self: center;
+}
+
+.contenido {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+div .subtitulo, div .texto, div .border-card div .texto-contacto {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 15px;
+  padding: "10px";
+}
+div .texto, div .border-card div .texto-contacto {
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: "10px";
+}
+
+div .listado {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 25px;
+  margin-left: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+div .listado .listado-item {
+  margin-bottom: 2rem;
+}
+
+.contenido {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+div .subtitulo, div .texto, div .border-card div .texto-contacto {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 15px;
+  padding: "10px";
+}
+div .subapartado, div .border-card div .subapartado-contacto, .formulario div label, div .formulario {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: "10px";
+}
+
+div .border-card {
+  border-color: "#666666d7";
+}
+div .border-card div .apartado {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 550;
+  margin-top: 15px;
+  margin-left: 15px;
+  padding: "10px";
+}
+div .border-card div .texto, div .border-card div .texto-contacto {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 15px;
+  padding: "10px";
+}
+div .border-card div .agendar {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.contenido {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+div .subtitulo, div .texto, div .border-card div .texto-contacto {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 15px;
+  padding: "10px";
+}
+div .subapartado, div .border-card div .subapartado-contacto, .formulario div label, div .formulario {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: "10px";
+}
+
+div .border-card {
+  border-color: "#666666d7";
+}
+div .border-card div .iconos-inspirate-img {
+  height: 100px;
+  max-width: 100%;
+}
+div .border-card div .apartado {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 550;
+  margin-top: 15px;
+  margin-left: 15px;
+  padding: "10px";
+}
+div .border-card div .texto, div .border-card div .texto-contacto {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 15px;
+  padding: "10px";
+}
+div .border-card div .agendar {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.contenido {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+div div .subtitulo, div div .texto, div .border-card div .texto-contacto {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 15px;
+  padding: "10px";
+}
+div div .apartado {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 550;
+  margin-top: 15px;
+  margin-left: 15px;
+  padding: "10px";
+}
+
+div div .subapartado, div .border-card div .subapartado-contacto, .formulario div div label, div div .formulario {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: "10px";
+}
+div div .texto, div .border-card div .texto-contacto {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: "10px";
+}
+
+.formulario {
+  font-size: 16px;
+  font-weight: 400;
+}
+.formulario div label {
+  font-weight: 450;
+  font-size: 17px;
+}
+.formulario div .enviar {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+div .border-card {
+  border-color: "#666666d7";
+}
+div .border-card div .subapartado-contacto {
+  font-size: 22px;
+}
+div .border-card div .texto-contacto {
+  font-size: 18px;
+  text-align: left;
+}
+div .border-card div .icono-contacto {
+  max-height: 5rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-content: left;
+}
+
+@media (max-width: 830px) {
+  .agendar-asesoria {
+    font-size: 20px;
+  }
+  .agendar {
+    font-size: 18px;
+  }
+  .titulo-principal, div div .slogan, div div .pitch {
+    font-size: 35px;
+  }
+  .slogan {
+    font-size: 25px;
+  }
+  .pitch {
+    font-size: 23px;
+  }
+  .subtitulo, div .texto, div .border-card div .texto-contacto {
+    font-size: 25px;
+  }
+  .apartado {
+    font-size: 23px;
+  }
+  .subapartado, .formulario, .formulario div label, div .border-card div .subapartado-contacto {
+    font-size: 20px;
+  }
+  .subapartado-contacto {
+    font-size: 19px;
+  }
+  .texto, div .border-card div .texto-contacto {
+    font-size: 17px;
+  }
+  .texto-contacto {
+    font-size: 16px;
+  }
+  .listado {
+    font-size: 17px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,20 @@
+$tipografia: "Poppins", sans-serif;
+
+$borde-gris: "#666666d7";
+
+$padding-diez: "10px";
+
+$espacio-contenido: (
+    margen-uno: 1rem,
+    padding-uno: 1rem,
+);
+
+@mixin negrita-ocho {
+    font-size: 28px;
+    font-weight: 550;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
