@@ -63,28 +63,28 @@
                         <h3 class="texto">Enviame un mensaje con tu consulta</h3>
                         <form action="" class="formulario">
                             <div>
-                                <label for="nombre">Nombre y Apellido*
-                                    <input required type="text" class="form-control" name="name" id="name"></label>
+                                <label for="name">Nombre y Apellido*
+                                    <input required type="text" class="form-control" name="name" id="name" autocomplete="name"></label>
                             </div>
                             <div>
                                 <label for="email">Email*
-                                    <input required type="email" class="form-control" name="email" id="email"></label>
+                                    <input required type="email" class="form-control" name="email" id="email" autocomplete="email"></label>
                             </div>
                             <div>
-                                <label for="telefono">Teléfono Móvil
-                                    <input type="tel" class="form-control" name="telefono" id="phone"></label>
+                                <label for="phone">Teléfono Móvil
+                                    <input type="phone" class="form-control" name="phone" id="phone" autocomplete="tel"></label>
                             </div>
                             <div>
-                                <label for="servicio">Servicio a consultar
-                                    <select class="form-select" aria-label="Default select example">
+                                <label for="service">Servicio a consultar
+                                    <select class="form-select" aria-label="select service" id="service">
                                         <option selected>Elegí el servicio</option>
                                         <option value="1">Organización a domicilio</option>
                                         <option value="2">Organización virtual</option>
                                     </select></label>
                             </div>
                             <div>
-                                <label for="mensaje">Mensaje
-                                    <input type="text" class="form-control" name="mensaje" id="message"> </label>
+                                <label for="message">Mensaje
+                                    <input type="text" class="form-control" name="mensaje" id="message" autocomplete="off"> </label>
                             </div>
                             <div>
                                 <input type="submit" class="enviar" value="Enviar">
@@ -94,7 +94,7 @@
                     <div class="col-md-5">
                         <div class="card mt-5 border-card">
                             <div class="card-body">
-                                <h5 class="card-title subapartado-contacto">Información de contacto</h5>
+                                <h4 class="card-title subapartado-contacto">Información de contacto</h4>
                                 <p class="card-text texto-contacto"> <iconify-icon icon="bi:whatsapp"
                                         class="icono-contacto"></iconify-icon>+54 9
                                     11-0000-0000 </p>
@@ -105,6 +105,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
     </main>
     <footer class="footer">
