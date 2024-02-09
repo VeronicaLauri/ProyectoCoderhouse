@@ -1,49 +1,139 @@
 @media (max-width: 830px) {
-    .agendar-asesoria {
-        font-size: 20px;
+
+    div {
+        div {
+            .titulo-principal {
+                font-size: 35px;
+            }
+
+            .slogan {
+                font-size: 25px;
+            }
+
+            .pitch {
+                font-size: 23px;
+            }
+        }
+
+        .agendar-asesoria {
+            font-size: 20px;
+        }
     }
 
-    .agendar {
-        font-size: 18px;
+
+    div {
+        div {
+            div {
+                .subtitulo-organizzate {
+                    font-size: 25px;
+                }
+
+                .texto-organizzate {
+                    font-size: 18px;
+                }
+            }
+        }
     }
 
-    .titulo-principal {
-        font-size: 35px;
+    div {
+        .listado-organizzate {
+            font-size: 17px;
+        }
     }
 
-    .slogan {
-        font-size: 25px;
+
+    div {
+        .subtitulo-servicios {
+            font-size: 25px;
+        }
+
+        .subapartado-servicios {
+            font-size: 20px;
+        }
     }
 
-    .pitch {
-        font-size: 23px;
+    div {
+        .border-card {
+            div {
+                .apartado-servicios {
+                    font-size: 23px;
+                }
+
+                .texto-servicios {
+                    font-size: 18px;
+                }
+
+                .agendar-servicios {
+                    font-size: 18px;
+                }
+            }
+        }
     }
 
-    .subtitulo {
-        font-size: 25px;
+    div {
+        .subtitulo-inspirate {
+            font-size: 25px;
+        }
+
+        .subapartado-inspirate {
+            font-size: 20px;
+        }
     }
 
-    .apartado {
-        font-size: 23px;
+    div {
+        .border-card {
+            div {
+                .apartado-inspirate {
+                    font-size: 22px;
+                }
+
+                .texto-inspirate {
+                    font-size: 18px;
+                }
+
+                .ver-inspirate {
+                    font-size: 18px;
+                }
+            }
+        }
     }
 
-    .subapartado {
-        font-size: 20px;
+
+    div {
+        div {
+            .subtitulo-contacto {
+                font-size: 25px;
+            }
+
+            .apartado-contacto {
+                font-size: 22px;
+            }
+        }
     }
 
-    .subapartado-contacto {
-        font-size: 19px;
-    }
+    div {
+        .border-card {
+            div {
+                .subapartado-contacto {
+                    font-size: 19px;
+                }
 
-    .texto {
-        font-size: 17px;
+                .texto-contacto {
+                    font-size: 16px;
+                }
+            }
+        }
     }
+}
 
-    .texto-contacto {
+div {
+    .formulario {
         font-size: 16px;
-    }
 
-    .listado {
-        font-size: 17px;
+        div {
+            .enviar {
+                font-size: 16px;
+            }
+        }
     }
 }

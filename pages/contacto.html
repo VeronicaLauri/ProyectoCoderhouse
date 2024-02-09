@@ -50,62 +50,64 @@
     </header>
     <main>
         <section class="contenido">
-            <div class="container">
+            <div class="container px-4">
                 <div class="row text-center">
                     <div data-aos="fade-down">
-                        <h1 class="subtitulo">Te ayudo a transformar tus espacios para simplificar tu vida.</h1>
-                        <h2 class="apartado">¡Agendá una asesoría!</h2>
+                        <h1 class="subtitulo-contacto">Te ayudo a transformar tus espacios para simplificar tu vida.</h1>
+                        <h2 class="apartado-contacto">¡Agendá una asesoría!</h2>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-7 mt-4">
-                        <h2 class="subapartado">Contactame</h2>
-                        <h3 class="texto">Enviame un mensaje con tu consulta</h3>
-                        <form action="../index.html" class="formulario">
-                            <div>
-                                <label for="name">Nombre y Apellido*
-                                    <input required type="text" class="form-control" name="name" id="name" autocomplete="name"></label>
+                    <div class="col-md-6 mt-4">
+                        <h2 class="subapartado-contacto">Contactame</h2>
+                        <h3 class="texto-contacto">Enviame un mensaje con tu consulta</h3>
+                        <form action="#" class="formulario">
+                            <div class="mb-3">
+                                <label for="name">Nombre y Apellido*</label>
+                                <input required type="text" class="form-control" name="name" id="name"
+                                    autocomplete="name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email">Email*</label>
+                                <input required type="email" class="form-control" name="email" id="email"
+                                    autocomplete="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone">Teléfono Móvil</label>
+                                <input type="tel" class="form-control" name="phone" id="phone" autocomplete="tel">
+                            </div>
+                            <div class="mb-3">
+                                <label for="service">Servicio a consultar</label>
+                                <select class="form-select" aria-label="select service" id="service">
+                                    <option selected>Elegí el servicio</option>
+                                    <option value="1">Organización a domicilio</option>
+                                    <option value="2">Organización virtual</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message">Mensaje</label>
+                                <input type="text" class="form-control" name="mensaje" id="message" autocomplete="off">
                             </div>
                             <div>
-                                <label for="email">Email*
-                                    <input required type="email" class="form-control" name="email" id="email" autocomplete="email"></label>
-                            </div>
-                            <div>
-                                <label for="phone">Teléfono Móvil
-                                    <input type="tel" class="form-control" name="phone" id="phone" autocomplete="tel"></label>
-                            </div>
-                            <div>
-                                <label for="service">Servicio a consultar
-                                    <select class="form-select" aria-label="select service" id="service">
-                                        <option selected>Elegí el servicio</option>
-                                        <option value="1">Organización a domicilio</option>
-                                        <option value="2">Organización virtual</option>
-                                    </select></label>
-                            </div>
-                            <div>
-                                <label for="message">Mensaje
-                                    <input type="text" class="form-control" name="mensaje" id="message" autocomplete="off"> </label>
-                            </div>
-                            <div>
-                                <input type="submit" class="enviar" value="Enviar">
+                                <input type="submit" class="enviar" value="Enviar consulta">
                             </div>
                         </form>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-6">
                         <div class="card mt-5 border-card">
-                            <div class="card-body">
+                            <img src="../assets/images/videocall-logo.png" class="card-img-bottom"
+                                alt="Imagen de computadora y mujer anotando con logo Organizzate">
+                            <div class="card-body text-center">
                                 <h4 class="card-title subapartado-contacto">Información de contacto</h4>
-                                <p class="card-text texto-contacto"> <iconify-icon icon="bi:whatsapp"
-                                        class="icono-contacto"></iconify-icon>+54 9
+                                <p class="card-text texto-contacto">Contactanos por el chat <iconify-icon icon="bi:whatsapp"
+                                        class="icono-contacto"></iconify-icon>al +54 9
                                     11-0000-0000 </p>
-                                <p class="card-text texto-contacto"> <iconify-icon icon="material-symbols:mail-outline"
-                                        class="icono-contacto"></iconify-icon>organizzate@gmail.com
+                                <p class="card-text texto-contacto">Envianos un mail <iconify-icon icon="material-symbols:mail-outline"
+                                        class="icono-contacto"></iconify-icon>a organizzate@gmail.com
                                 </p>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
         </section>
     </main>
     <footer class="footer">
@@ -118,23 +120,32 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <h3 class="footer-title ps-3">
+                    <h3 class="footer-title ms-3">
                         Enlaces
                     </h3>
-                    <ul class="footer-list ps-3">
-                        <li class="mb-2">
+                    <ul class="footer-list">
+                        <li>
+                            <img class="iconos-footer-img" src="../assets/images/icono-inicio.png" alt="Icono Inicio">
                             <a href="../index.html" class="footer-link">Inicio</a>
                         </li>
-                        <li class="mb-2">
+                        <li>
+                            <img class="iconos-footer-img" src="../assets/images/icono-organizzate.png"
+                                alt="Icono Organizzate">
                             <a href="./organizzate.html" class="footer-link">Organizzate</a>
                         </li>
-                        <li class="mb-2">
+                        <li>
+                            <img class="iconos-footer-img" src="../assets/images/icono-servicios.png"
+                                alt="Icono Servicios">
                             <a href="./servicios.html" class="footer-link">Servicios</a>
                         </li>
-                        <li class="mb-2">
+                        <li>
+                            <img class="iconos-footer-img" src="../assets/images/icono-inspirate.png"
+                                alt="Icono Inspirate">
                             <a href="./inspirate.html" class="footer-link">Inspirate</a>
                         </li>
-                        <li class="mb-2">
+                        <li>
+                            <img class="iconos-footer-img" src="../assets/images/icono-contacto.png"
+                                alt="Icono Contacto">
                             <a href="#" class="footer-link">Contacto</a>
                         </li>
                     </ul>
@@ -145,17 +156,20 @@
                     </h3>
                     <ul class="footer-list">
                         <li>
-                            <img class="iconos-footer-img" src="../assets/images/whatsapp.png" alt="Icono Whatsapp">
+                            <img class="iconos-footer-img" src="../assets/images/icono-whatsapp.png"
+                                alt="Icono Whatsapp">
                             <a rel="noopener nofollow" href="https://www.whatsapp.com/" target="_blank"
                                 class="footer-link">Whatsapp </a>
                         </li>
                         <li>
-                            <img class="iconos-footer-img" src="../assets/images/instagram.png" alt="Icono Instagram">
+                            <img class="iconos-footer-img" src="../assets/images/icono-instagram.png"
+                                alt="Icono Instagram">
                             <a rel="noopener nofollow" href="https://www.instagram.com/" target="_blank"
                                 class="footer-link">Instagram</a>
                         </li>
                         <li>
-                            <img class="iconos-footer-img" src="../assets/images/facebook.png" alt="Icono Facebook">
+                            <img class="iconos-footer-img" src="../assets/images/icono-facebook.png"
+                                alt="Icono Facebook">
                             <a rel="noopener nofollow" href="https://www.facebook.com/" target="_blank"
                                 class="footer-link">Facebook</a>
                         </li>

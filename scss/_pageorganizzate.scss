@@ -4,36 +4,35 @@
 }
 
 div {
-    .subtitulo {
-        font-family: $tipografia;
-        font-weight: 600;
-        font-size: 30px;
-        margin-top: 20px;
-        margin-left: 15px;
-        padding: $padding-diez;
-    }
-    .texto {
-        @extend .subtitulo;
-        font-weight: 400;
-        font-size: 20px;
-        margin-top: 10px;
-        padding: $padding-diez;
+    div {
+        div {
+            .subtitulo-organizzate {
+                @include subtitulo;
+                margin-top: 20px;
+                margin-left: 15px;
+                padding: $padding-diez;
+            }
+
+            .texto-organizzate {
+                @include texto;
+                font-size: 22px;
+                margin: 20px;
+                padding: $padding-diez;
+            }
+        }
     }
 }
 
+
 div {
-    .listado {
+    .listado-organizzate {
         font-family: $tipografia;
         font-weight: 500;
-        font-size: 20px;
+        font-size: 22px;
         text-align: left;
-        margin-top: 25px;
+        margin-top: 35px;
         margin-left: 15px;
         display: flex;
         flex-wrap: wrap;
-        
-        .listado-item {
-            margin-bottom: 2rem;
-        }
     }
 }

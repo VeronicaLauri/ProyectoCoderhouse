@@ -43,7 +43,7 @@ header div div .menu {
   font-size: 17px;
   font-weight: 600;
   color: #ffffff;
-  margin-bottom: 1rem;
+  margin-bottom: 0, 5rem;
   margin-top: 2rem;
   text-decoration: none;
 }
@@ -53,16 +53,17 @@ header div div .menu {
   padding: 0;
   color: #ffffff;
 }
-.footer div div div li .footer-link {
+.footer div div div .footer-list li .footer-link {
   font-size: 16px;
   font-weight: 400;
   color: #ffffff;
   text-decoration: none;
   padding: 0;
 }
-.footer div div div li .iconos-footer-img {
+.footer div div div .footer-list li .iconos-footer-img {
   height: 50px;
   margin: 0;
+  padding: 0;
 }
 
 .contenido {
@@ -82,6 +83,7 @@ div div .slogan {
   font-size: 30px;
 }
 div div .pitch {
+  font-family: "Poppins", sans-serif;
   font-size: 28px;
   font-weight: 550;
 }
@@ -99,7 +101,7 @@ div .agendar-asesoria {
   padding: 1rem;
 }
 
-div .subtitulo, div .texto, div .border-card div .texto-contacto {
+div div div .subtitulo-organizzate {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 30px;
@@ -107,25 +109,24 @@ div .subtitulo, div .texto, div .border-card div .texto-contacto {
   margin-left: 15px;
   padding: "10px";
 }
-div .texto, div .border-card div .texto-contacto {
+div div div .texto-organizzate {
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 20px;
-  margin-top: 10px;
+  font-size: 22px;
+  margin: 20px;
   padding: "10px";
 }
 
-div .listado {
+div .listado-organizzate {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 22px;
   text-align: left;
-  margin-top: 25px;
+  margin-top: 35px;
   margin-left: 15px;
   display: flex;
   flex-wrap: wrap;
-}
-div .listado .listado-item {
-  margin-bottom: 2rem;
 }
 
 .contenido {
@@ -133,7 +134,7 @@ div .listado .listado-item {
   padding: 1rem;
 }
 
-div .subtitulo, div .texto, div .border-card div .texto-contacto {
+div .subtitulo-servicios {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 30px;
@@ -141,20 +142,18 @@ div .subtitulo, div .texto, div .border-card div .texto-contacto {
   margin-left: 15px;
   padding: "10px";
 }
-div .subapartado, div .border-card div .subapartado-contacto, .formulario div label, div .formulario {
+div .subapartado-servicios {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 24px;
-  margin-top: 15px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin: 15px;
   padding: "10px";
 }
 
 div .border-card {
   border-color: "#666666d7";
 }
-div .border-card div .apartado {
+div .border-card div .apartado-servicios {
   font-family: "Poppins", sans-serif;
   font-size: 28px;
   font-weight: 550;
@@ -162,7 +161,7 @@ div .border-card div .apartado {
   margin-left: 15px;
   padding: "10px";
 }
-div .border-card div .texto, div .border-card div .texto-contacto {
+div .border-card div .texto-servicios {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -170,7 +169,7 @@ div .border-card div .texto, div .border-card div .texto-contacto {
   margin-left: 15px;
   padding: "10px";
 }
-div .border-card div .agendar {
+div .border-card div .agendar-servicios {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -183,7 +182,7 @@ div .border-card div .agendar {
   padding: 1rem;
 }
 
-div .subtitulo, div .texto, div .border-card div .texto-contacto {
+div .subtitulo-inspirate {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 30px;
@@ -191,7 +190,7 @@ div .subtitulo, div .texto, div .border-card div .texto-contacto {
   margin-left: 15px;
   padding: "10px";
 }
-div .subapartado, div .border-card div .subapartado-contacto, .formulario div label, div .formulario {
+div .subapartado-inspirate {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 24px;
@@ -208,7 +207,7 @@ div .border-card div .iconos-inspirate-img {
   height: 100px;
   max-width: 100%;
 }
-div .border-card div .apartado {
+div .border-card div .apartado-inspirate {
   font-family: "Poppins", sans-serif;
   font-size: 28px;
   font-weight: 550;
@@ -216,15 +215,16 @@ div .border-card div .apartado {
   margin-left: 15px;
   padding: "10px";
 }
-div .border-card div .texto, div .border-card div .texto-contacto {
+div .border-card div .texto-inspirate {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 20px;
+  font-size: 22px;
   margin-top: 10px;
   margin-left: 15px;
   padding: "10px";
 }
-div .border-card div .agendar {
+div .border-card div .ver-inspirate {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -237,15 +237,14 @@ div .border-card div .agendar {
   padding: 1rem;
 }
 
-div div .subtitulo, div div .texto, div .border-card div .texto-contacto {
+div div .subtitulo-contacto {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 30px;
-  margin-top: 20px;
-  margin-left: 15px;
+  margin: 20px;
   padding: "10px";
 }
-div div .apartado {
+div div .apartado-contacto {
   font-family: "Poppins", sans-serif;
   font-size: 28px;
   font-weight: 550;
@@ -254,34 +253,20 @@ div div .apartado {
   padding: "10px";
 }
 
-div div .subapartado, div .border-card div .subapartado-contacto, .formulario div div label, div div .formulario {
+div .formulario, div .formulario div label {
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 24px;
+  margin-left: 15px;
   margin-top: 15px;
-  margin-left: 15px;
-  margin-right: 15px;
+  font-size: 18px;
+  font-weight: 400;
   padding: "10px";
 }
-div div .texto, div .border-card div .texto-contacto {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  margin-top: 10px;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding: "10px";
-}
-
-.formulario {
-  font-size: 16px;
-  font-weight: 400;
-}
-.formulario div label {
+div .formulario div label {
+  margin-left: 5px;
   font-weight: 450;
   font-size: 17px;
 }
-.formulario div .enviar {
+div .formulario div .enviar {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 18px;
@@ -291,60 +276,94 @@ div div .texto, div .border-card div .texto-contacto {
   padding: 15px;
 }
 
-div .border-card {
-  border-color: "#666666d7";
-}
-div .border-card div .subapartado-contacto {
+div .subapartado-contacto, div .texto-contacto {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
   font-size: 22px;
+  margin: 10px;
+  padding: "10px";
 }
-div .border-card div .texto-contacto {
+div .texto-contacto {
   font-size: 18px;
-  text-align: left;
+  font-weight: 400;
 }
-div .border-card div .icono-contacto {
+div .texto-contacto .icono-contacto {
   max-height: 5rem;
-  margin-left: 10px;
+  margin-left: 5px;
   margin-right: 10px;
-  align-content: left;
 }
 
 @media (max-width: 830px) {
-  .agendar-asesoria {
-    font-size: 20px;
-  }
-  .agendar {
-    font-size: 18px;
-  }
-  .titulo-principal, div div .slogan, div div .pitch {
+  div div .titulo-principal, div div .slogan, div div .pitch {
     font-size: 35px;
   }
-  .slogan {
+  div div .slogan {
     font-size: 25px;
   }
-  .pitch {
+  div div .pitch {
     font-size: 23px;
   }
-  .subtitulo, div .texto, div .border-card div .texto-contacto {
-    font-size: 25px;
-  }
-  .apartado {
-    font-size: 23px;
-  }
-  .subapartado, .formulario, .formulario div label, div .border-card div .subapartado-contacto {
+  div .agendar-asesoria {
     font-size: 20px;
   }
-  .subapartado-contacto {
+  div div div .subtitulo-organizzate {
+    font-size: 25px;
+  }
+  div div div .texto-organizzate {
+    font-size: 18px;
+  }
+  div .listado-organizzate {
+    font-size: 17px;
+  }
+  div .subtitulo-servicios {
+    font-size: 25px;
+  }
+  div .subapartado-servicios {
+    font-size: 20px;
+  }
+  div .border-card div .apartado-servicios {
+    font-size: 23px;
+  }
+  div .border-card div .texto-servicios {
+    font-size: 18px;
+  }
+  div .border-card div .agendar-servicios {
+    font-size: 18px;
+  }
+  div .subtitulo-inspirate {
+    font-size: 25px;
+  }
+  div .subapartado-inspirate {
+    font-size: 20px;
+  }
+  div .border-card div .apartado-inspirate {
+    font-size: 22px;
+  }
+  div .border-card div .texto-inspirate {
+    font-size: 18px;
+  }
+  div .border-card div .ver-inspirate {
+    font-size: 18px;
+  }
+  div div .subtitulo-contacto {
+    font-size: 25px;
+  }
+  div div .apartado-contacto {
+    font-size: 22px;
+  }
+  div .border-card div .subapartado-contacto, div .border-card div .texto-contacto {
     font-size: 19px;
   }
-  .texto, div .border-card div .texto-contacto {
-    font-size: 17px;
-  }
-  .texto-contacto {
+  div .border-card div .texto-contacto {
     font-size: 16px;
   }
-  .listado {
-    font-size: 17px;
-  }
+}
+div .formulario, div .formulario div label {
+  font-size: 16px;
+}
+div .formulario div .enviar {
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=styles.css.map */

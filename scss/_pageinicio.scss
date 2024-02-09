@@ -21,8 +21,8 @@ div {
 
         .pitch {
             @extend .titulo-principal;
-            @include negrita-ocho;
-            
+            @include apartado;
+
         }
     }
 
